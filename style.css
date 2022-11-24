@@ -542,6 +542,21 @@ body.unscrollable {
 .contact_form input , textarea{
   background-color: antiquewhite;
 }
+.google_link iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+
+}
+.google_link{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height: 0 ;
+  
+}
 /* ================= Footer ===================== */
 
 .footer-container {
@@ -821,6 +836,9 @@ body.unscrollable {
     font-size: 8px;
     line-height: 8px;
   }
+  .contact_body p {
+    font-size: 18px;
+  }
 }
 
 @media (max-width: 540px) {
@@ -875,6 +893,9 @@ body.unscrollable {
 
   #plans_text{
     font-size: 20px;
+  }
+  .contact_body p {
+    font-size: 16px;
   }
 }
 
@@ -964,6 +985,9 @@ body.unscrollable {
 
   .header__btn {
     display: none;
+  }
+  .contact_body p{
+    font-size: 11px;
   }
 
   /* ================= Main ===================== */
