@@ -542,6 +542,21 @@ body.unscrollable {
 .contact_form input , textarea{
   background-color: antiquewhite;
 }
+.google_link iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+
+}
+.google_link{
+  overflow:hidden;
+  padding-bottom:56.25%;
+  position:relative;
+  height: 0 ;
+  
+}
 /* ================= Footer ===================== */
 
 .footer-container {
